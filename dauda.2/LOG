@@ -1,0 +1,29 @@
+commit 2394713ba8c98f1125003bdbfba64193885ab21f
+Author: abdulquadri dauda <dauda@hoare7.cs.umsl.edu>
+Date:   Thu Sep 27 00:46:17 2018 -0500
+
+    last commit
+
+commit 5f1f8e2a750c62731ecad3d627fbbdb9b5c5f441
+Author: abdulquadri dauda <dauda@hoare7.cs.umsl.edu>
+Date:   Wed Sep 26 21:11:52 2018 -0500
+
+    updated
+
+commit 227c545ac0c15ab8adff43e9c984ecd9cd3735c0
+Author: abdulquadri dauda <dauda@hoare7.cs.umsl.edu>
+Date:   Tue Sep 25 21:27:54 2018 -0500
+
+    made some updates
+
+commit 613df5f19f4da9229471e54178fea2af3a302a9c
+Author: abdulquadri dauda <dauda@hoare7.cs.umsl.edu>
+Date:   Tue Sep 25 00:21:58 2018 -0500
+
+    have master allocate shared memory
+
+commit 63ea4d36f82b3fa2ae5776a7d4b6d2e48cc7fc69
+Author: abdulquadri dauda <dauda@hoare7.cs.umsl.edu>
+Date:   Mon Sep 24 17:01:16 2018 -0500
+
+    makefile created

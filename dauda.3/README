@@ -1,0 +1,33 @@
+
+Semaphores and Operating System Simulator
+
+ #  Project details
+
+        My file names are "oss.c" and "user.c". I have a Makefile which when run with the command "make", it 
+	compiles my project into an execuatables named oss and user. In addition, 
+	it also remove all generated object files when called with "make clean".
+
+        I set up a git as a version control inside my working directory(dauda.3)
+        and this is where I added and commited all my updated files. 
+
+        I piped the output of the command "git log" to a file named "gitlog".
+
+
+        ##  To compile and run this project:
+
+        Step 1: cd into the directory "dauda.3"
+        Step 2: type the command "make" and press "enter". 
+        Step 3: then type any of the commands below and hit enter to see the different outputs
+
+        ./oss -h
+
+        ./oss -s x -l filename -t z
+
+        where x is the number of process to be spawned,
+	      filename is the name of output file,
+	      and z is the total running time before termination.
+
+
+        ###  Problem/comments
+
+        I had issues  with sempahore, signal handling, and with clearing shared memory. 

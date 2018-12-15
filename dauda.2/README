@@ -1,0 +1,5 @@
+
+run with:
+1.	make
+2.	./master [-n max_no._of_process] [-s no._allowed_at_a_time]
+
