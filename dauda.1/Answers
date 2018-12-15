@@ -1,0 +1,101 @@
+
+1. Question:	Run Program 3.1 and observe the results for different numbers of processes.
+
+   Answer:	when ran with 1 process using the command: ./chain -n 1,
+		got this: 	
+			i:1 process ID:6778 parent ID:32630 child ID:0
+			and program terminated. 
+
+		when ran with 2 process using the command:  ./chain -n 2,
+		got this:	
+			i:1 process ID:1564 parent ID:32630 child ID:1567
+			i:2 process ID:1567 parent ID:1 child ID:0
+			and the program did not terminate.
+
+		when ran with 3 process using the command:  ./chain -n 3,
+		got this:
+			i:1 process ID:19173 parent ID:32630 child ID:19176
+			i:2 process ID:19176 parent ID:1 child ID:19178
+			i:3 process ID:19178 parent ID:1 child ID:0	
+			and the program terminated.
+
+
+2. Question:	Fill in the actual process IDs of the processes in the diagram of Figure 3.2 for a run with command-line argument value of 4.
+
+   Answer:	when ran using the command: ./chain -n 4,
+		got this:
+			i:1 process ID:31665 parent ID:32630 child ID:31670
+			i:2 process ID:31670 parent ID:1 child ID:31672
+			i:3 process ID:31672 parent ID:1 child ID:31674
+			i:4 process ID:31674 parent ID:1 child ID:0
+			and the program did not terminate. 
+
+3. Question:	Experiment with different values for the command-line argument to find out the largest number of processes that the program can generate. Observe the fraction 			     that are adopted by init.
+
+   Answer:	when ran with: ./chain -n 10,
+	 	9 out of 10 were adopted.Thus, 0.9 processes were adopted.
+
+		when ran with: ./chain -n 20,
+		18 out of 20 were adopted. Thus, 0.9 process were adopted.
+
+		when ran with: ./chain -n 100,
+		85 out of 100 were adopted. Thus 0.85 process were adopted by init. 
+
+		I observed that the largest number of processes that the program can generate is 183,780.
+
+
+4. Question:	Place sleep(10); directly before the final fprintf statement in Program 3.1. What is the maximum number of processes generated in this case?
+
+   Answer: 	I observed that the largest number of process generated in this case is 28. It went down.
+
+
+5. Question:	Put a loop around the final fprintf in Program 3.1. Have the loop execute k times. Put sleep(m); inside this loop after the fprintf. Pass k and m on the 			     command line. Run the program for several values of n, k and m. Observe the results.
+
+   Answer:	I observed that none of the process IDs were adopted by init, but there are some cases where child ID is 0.
+
+
+6. Question:	Modify Program 3.1 by putting a wait function call before the final fprintf statement. How does this affect the output of the program?
+
+   Answer:	when I ran the command: ./chain -n 4,
+		I got this:
+			i:4 process ID:28557 parent ID:28556 child ID:-1
+			i:3 process ID:28556 parent ID:28555 child ID:28557
+			i:2 process ID:28555 parent ID:28552 child ID:28556
+			i:1 process ID:28552 parent ID:25045 child ID:28555
+
+		Thus, a parent waited for a particular child and the output started from the last.Decreasing order unlike before.
+
+
+7. Question:	Modify Program 3.1 by replacing the final fprintf statement with four fprintf statements, one each for the four integers displayed. Only the last one should 			     output a newline. What happens when you run this program? Can you tell which process generated each part of the output? Run the program several times and see 			  if there is a difference in the output.	
+
+   Answer:	The output was not in order and it is not easy to tell which process generated each part of the output. After running this several time, I observed 		     		     the output was still in order, but the process IDs do changes.
+
+
+8. Question:	Modify Program 3.1 by replacing the final fprintf statement with a loop that reads nchars characters from standard input, one character at a time, and puts 			     them in an array called mybuf. The values of n and nchars should be passed as command-line arguments. After the loop, put a '\0' character in entry nchars of 			  the array so that it contains a string. Output to standard error in a single fprintf the process ID followed by a colon followed by the string in mybuf. Run 			       the program for several values of n and nchars. Observe the results. Press the Return key often and continue typing at the keyboard until all of the processes 			    have exited.
+
+   Answer:	I really do not understand what is going on in the output. Think I need some explanation on this output. After modifying as requested, I got below:
+		
+		I ran the command: ./a.out 2 5, with 2 for n and 5 for nchars. 
+		Then I typed in 'a' then return key, 'b' then return key and c then return key
+		output:		
+					a
+					b
+					c
+					16837 process ID:a
+					b
+					c   
+
+		I repeat with the command: ./a.out 4 8
+		output:
+					a
+					b
+					c
+					d
+					16891 process ID:a
+					b
+					c
+					d
+
+
+
+

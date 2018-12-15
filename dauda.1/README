@@ -1,0 +1,33 @@
+
+	#  Project details
+
+	My file name is chain.c and I have a Makefile which compiles my project into an execuatable
+	called ass1 when called with onle "make". In addition, it also remove all generated object 
+        files when called with "make clean".
+
+	I set up a git as a version control inside my working directory(dauda.1)
+        and this is where I added and commited all my updated files. 
+
+	I piped the output of the command "git log" to a file named "log".
+
+
+	##  To compile and run this project:
+
+	Step 1: cd into the directory "dauda.1"
+	Step 2: type the command "make" and press "enter". 
+	Step 3: then type any of the commands below and hit enter to see the different outputs
+
+	./ass1 -h
+
+	./ass1 -p
+
+	./ass1 -n x
+
+	where x is any number greater than 1.
+
+
+	###  Problem/comments
+
+	I had a little challenge with following the git set up guidelines givens, but thankfull I was able to figure
+	it out from asking question about it in class and looking up how to do it on youtube. 
+
