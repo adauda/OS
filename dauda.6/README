@@ -1,0 +1,10 @@
+
+
+To compile, use the command: 		make
+To run the program, use the command: 	./oss and press enter.
+To clean/remove executable files: 	make clean
+
+After running, a statistical output will be printed to the screen and a file named "file.log" will be generated. 
+The file.log contains the operational information about the times that resources are requested, released, and allocated.
+
+I used git version control and have the git operation in a file named gitlog.

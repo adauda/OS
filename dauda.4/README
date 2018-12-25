@@ -1,0 +1,14 @@
+To run:
+
+	type: 		make and press enter,
+	then type: 	./oss
+
+	an output will be generated in a file called "log".
+
+I also have the output of git log in a file called "gitLog"
+
+Problems:
+	1: I used 2 secs for the signal handler and this is not giving the program enough time to run.
+	2: I could not complete this project because I was getting below message on the server
+
+			make: vfork: Resource temporarily unavailable 

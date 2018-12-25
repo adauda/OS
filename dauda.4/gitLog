@@ -1,0 +1,41 @@
+commit 956dfc458f697779e11b37d5cb9b959c0dab5588
+Author: abdulquadri dauda <dauda@hoare7.cs.umsl.edu>
+Date:   Wed Oct 31 23:04:23 2018 -0500
+
+    last update
+
+commit c21676142bd1b667bf386f7f41004b4a532422a4
+Author: abdulquadri dauda <dauda@hoare7.cs.umsl.edu>
+Date:   Wed Oct 31 22:04:51 2018 -0500
+
+    fixed mistake in oss.c
+
+commit 71323b81ced620afe22e7c6a1bf39b3d47d0d112
+Author: abdulquadri dauda <dauda@hoare7.cs.umsl.edu>
+Date:   Wed Oct 31 20:27:15 2018 -0500
+
+    updated oss.c
+
+commit db6d5fc0a874bcdab131ec5042bad6ec4b071346
+Author: abdulquadri dauda <dauda@hoare7.cs.umsl.edu>
+Date:   Tue Oct 30 21:43:16 2018 -0500
+
+    updated user.c file
+
+commit c0bab01ae919f8f889f7bd878b93a1a56a867e71
+Author: abdulquadri dauda <dauda@hoare7.cs.umsl.edu>
+Date:   Tue Oct 30 20:37:51 2018 -0500
+
+    updated oss.c
+
+commit 362dc28f9c56be9de17516d1a7e5f2e7016f2b21
+Author: abdulquadri dauda <dauda@hoare7.cs.umsl.edu>
+Date:   Tue Oct 30 09:28:56 2018 -0500
+
+    updated makefile
+
+commit c8be1e04a527dbf53cc7ed4e754cdd0ca5ec8bd3
+Author: abdulquadri dauda <dauda@hoare7.cs.umsl.edu>
+Date:   Mon Oct 29 14:49:48 2018 -0500
+
+    created needed file

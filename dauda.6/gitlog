@@ -1,0 +1,35 @@
+commit be455df89ae495202cedbb439b6c536e1c401691
+Author: abdulquadri dauda <dauda@hoare7.cs.umsl.edu>
+Date:   Thu Nov 15 18:20:45 2018 -0600
+
+    updated uproc.c
+
+commit 592489e3bb90db8240c2ed9e2993e03d03b2f323
+Author: abdulquadri dauda <dauda@hoare7.cs.umsl.edu>
+Date:   Thu Nov 15 18:17:39 2018 -0600
+
+    updated oss.c
+
+commit cc73b09b9f4027599b0441835d04f72a05703837
+Author: abdulquadri dauda <dauda@hoare7.cs.umsl.edu>
+Date:   Tue Nov 13 19:25:19 2018 -0600
+
+    updated files
+
+commit 217e48f696bbb49c8e0ae6958d5238f58e2b4cc8
+Author: abdulquadri dauda <dauda@hoare7.cs.umsl.edu>
+Date:   Tue Nov 13 19:05:29 2018 -0600
+
+    update oss.c and uproc.c
+
+commit ff0ca48f9598fb7d7133bd92d0ccbffef3e05d43
+Author: abdulquadri dauda <dauda@hoare7.cs.umsl.edu>
+Date:   Tue Nov 13 18:21:19 2018 -0600
+
+    created oss and uproc files
+
+commit 259192666fe4b72566dfc45542656861c19b777c
+Author: abdulquadri dauda <dauda@hoare7.cs.umsl.edu>
+Date:   Tue Nov 13 15:33:10 2018 -0600
+
+    created makefile
