@@ -1,2 +1,1 @@
-# OS (Operating System Class Projects)
-# C
+# Operating System class projects
